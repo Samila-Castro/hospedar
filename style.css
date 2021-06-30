@@ -20,12 +20,11 @@ body {
 
 .content {
     background-color: #4E5FCD;
-    
     width: 960px;
     height: 80%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     position: relative;
 }
 
@@ -46,7 +45,7 @@ body {
     text-decoration-color: #4E5FCD; 
     text-decoration-thickness: 5%;
     text-decoration-style: solid;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     
 }
 .title-second {
@@ -116,6 +115,10 @@ body {
     text-align: center;
     flex: 3 0 auto;
     z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .second-column {
@@ -123,15 +126,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-
+    justify-content: space-between;
 }
 
 
 nav {
-    margin-bottom: 230px;
+    /* margin-bottom: 230px; */
+    margin-top: 20px;
+}
+
+article {
+    /* margin-bottom: 230px; */
+    margin-top: 10px;
     font-weight: lighter;
 }
+
  li {
     display: inline-block;
     padding: 0 12px;
@@ -146,7 +155,7 @@ nav {
 
 div > div {
     display: inline-block;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     
 }
 
