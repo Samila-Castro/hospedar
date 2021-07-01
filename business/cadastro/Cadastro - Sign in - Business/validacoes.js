@@ -23,6 +23,6 @@ function validar(){
         alert("Preencha todos os campos.");
     }
 
- window.location.href = "/cliente/login/Página Login - WEB/Login/login.html"
+  window.location.href = "/business/login/"
     return false
 }
