@@ -1,0 +1,137 @@
+
+body{
+    font-family: 'Comfortaa',cursive;
+}
+
+#left{
+    position: absolute;
+    width:50%;
+    height: 1024px;
+    left: 0%;
+    top: 0px;
+    background: #094275;
+} 
+
+#right{
+    position: absolute;
+    width: 50%;
+    height: 1024px;
+    left: 50%;
+    top: 0px;
+    background: #4E5FCD;
+}
+
+
+
+#escolhas{
+    top: 600px;
+    margin: 250px;
+    margin-top: 140px;
+    
+}
+
+h1{
+    position: absolute;
+    width: 506px;
+    height: 103px;
+    left: 101px;   
+    font-style: normal;
+    font-weight: normal;
+    line-height: 46px;
+    font-family:Baloo Tammudu ;
+    font-size: 90px;
+    margin-left: 130px ;
+    text-align: center;
+    top: 465px;
+    color: #FFFFFF;
+    text-decoration: underline #4E5FCD 5px;
+   
+}
+h1:hover{
+    text-decoration: none;
+}
+button{
+    
+    border-radius: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 50px ;
+    cursor: pointer;
+    font-weight: bold;
+    width: 250px;
+    align-self:center ;
+    border-width: 0.1px;
+   
+   
+}
+
+.btn-second {
+  background-color: #4E5FCD; 
+  border: 2px solid #d6d6d6;
+  box-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
+
+.btn-second:hover{
+    background-color: #fff;
+    border: 2px solid #4E5FCD;
+    color:#4E5FCD;
+}
+
+
+#centralizador{
+    top: 450px;
+    margin: 200px;
+    margin-top: 365px;
+}
+
+h2{
+    font-size: 50px;
+    
+}
+
+p{
+    font-size: 27px;     
+}
+
+h2, h3, p{
+    
+    color: #FFFFFF;
+
+}
+h3{
+    text-align: center;
+    
+
+}
+h3{
+    font-size: 30px; 
+}
+
+
+nav ul li { 
+    display: inline;
+
+}
+
+a {
+    text-decoration:none
+}
+
+nav ul li a {
+    margin: 2em;
+}
+
+nav ul{
+    text-align: center;
+}
+
+li a {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 46px;   
+    color: #FFFFFF;
+}
+
