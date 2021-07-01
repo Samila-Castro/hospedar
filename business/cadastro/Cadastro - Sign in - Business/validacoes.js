@@ -22,7 +22,7 @@ function validar(){
     else if(!email && !senha && !nome) {
         alert("Preencha todos os campos.");
     }
-    
-       
-    
+
+ window.location.href = "/cliente/login/Página Login - WEB/Login/login.html"
+    return false
 }
