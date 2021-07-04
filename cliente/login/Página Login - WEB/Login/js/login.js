@@ -5,7 +5,7 @@ function validar(){
     
     if(email == "cliente@gmail.com" && senha == "12345678")
     {
-        window.location = "";
+       /* window.location = ""; */ 
     }
 
     else if(!email && !senha)
