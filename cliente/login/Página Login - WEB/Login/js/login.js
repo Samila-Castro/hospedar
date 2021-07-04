@@ -5,7 +5,7 @@ function validar(){
     
     if(email == "cliente@gmail.com" && senha == "12345678")
     {
-       /* window.location.href = ""; */ 
+        window.location.href = "";  
     }
 
     else if(!email && !senha)
@@ -17,7 +17,7 @@ function validar(){
     {
         alert("Preencha o campo email");
     }
-    
+
     else if(!senha)
     {
         alert("Preencha o campo senha");
